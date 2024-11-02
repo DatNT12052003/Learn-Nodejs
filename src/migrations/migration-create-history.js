@@ -7,21 +7,18 @@ module.exports = {
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
-      },
-      currentNumber: {
+          },
+      patientId: {
         type: Sequelize.INTEGER
-      },
-      maxNumber: {
-        type: Sequelize.INTEGER
-      },
-      date: {
-        type: Sequelize.DATE
-      },
-      timeType: {
-        type: Sequelize.STRING
-      },
+          },
       doctorId: {
         type: Sequelize.INTEGER
+      },
+      description: {
+        type: Sequelize.TEXT
+      },
+      files: {
+        type: Sequelize.TEXT
       },
                
       createdAt: {
